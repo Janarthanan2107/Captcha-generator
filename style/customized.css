@@ -148,3 +148,20 @@ a {
     border-color: var(--ut-orange);
     padding: 10px;
 }
+
+.message-container {
+    width: 100%;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: gray;
+    /* visibility: hidden; */
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
