@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Generator</title>
+    <!-- Tab icon -->
+    <link rel="shortcut icon" href="assets/captcha.png" type="image/x-icon">
+    <!-- normalized css -->
+    <link rel="stylesheet" href="./style/normalized.css">
+    <!-- fontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Customized css -->
+    <link rel="stylesheet" href="./style/customized.css">
+</head>
+
+<body>
+    <!--Contents needs to places here!-->
+    <div class="card">
+        <h2 class="title">Captcha Generator</h2>
+        <div class="captcha-container">
+            <div class="captcha-grid">
+                <div class="captcha-img-container">
+                    <img class="captcha-bg" src="assets/bg.png">
+                    <p class="code">jwz17S</p>
+                </div>
+                <button class="refresh-btn"><i class="fa-solid fa-rotate-right"></i></button>
+            </div>
+        </div>
+        <div class="captcha-eval">
+            <input class="captcha-input" maxlength="6" required placeholder="Enter Captcha">
+            <button class="captcha-check">Check</button>
+        </div>
+    </div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
